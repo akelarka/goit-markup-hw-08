@@ -1,0 +1,36 @@
+// All "Base" specific SASS partials
+
+@import "./base/variables";
+@import "./base/base";
+@import "./base/body";
+@import "./base/section";
+@import "./base/container";
+
+// All "Components" specific SASS partials
+
+@import "./components/logo";
+@import "./components/title";
+@import "./components/social-network";
+@import "./components/backdrop";
+@import "./components/page-header";
+@import "./components/burger-btn";
+@import "./components/burger-menu";
+@import "./components/page-footer";
+
+// All "Module" specific SASS partials
+
+@import "./module/modal";
+
+// All "Utils" specific SASS partials
+
+@import "./utils/visually-hidden";
+
+// All "Layout" specific SASS partials
+
+@import "./layout/main/hero";
+@import "./layout/main/preferences";
+@import "./layout/main/about";
+@import "./layout/main/team";
+@import "./layout/main/regular-customers";
+@import "./layout/portfolio/filter";
+@import "./layout/portfolio/portfolio-list";
