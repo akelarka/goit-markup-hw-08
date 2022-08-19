@@ -44,7 +44,7 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: translateY(100%);
+      transform: translateY(101%);
       background: var(--transparent-blue-color);
       transition-property: transform;
       transition-duration: 250ms;
@@ -97,7 +97,9 @@
 }
 
 .portfolio-list__link {
-   display: block;
+   display: flex;
+   flex-direction: column;
+   height: 100%;
    transition-property: box-shadow;
    transition-duration: 250ms;
    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -110,6 +112,7 @@
 }
 
 .portfolio-list__content {
+   flex-grow: 1;
    padding-top: 20px;
    padding-right: 24px;
    padding-bottom: 20px;

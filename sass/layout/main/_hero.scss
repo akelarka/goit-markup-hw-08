@@ -63,15 +63,15 @@
       height: auto;
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       -webkit-image-set(
-         url("../images/hero/jpg/1200/hero-image-1200@1x.jpg") 1x,
-         url("../images/hero/jpg/1200/hero-image-1200@2x.jpg") 2x,
-         url("../images/hero/jpg/1200/hero-image-1200@3x.jpg") 3x,
          url("../images/hero/avif/1200/hero-image-1200@1x.avif") 1x,
          url("../images/hero/avif/1200/hero-image-1200@2x.avif") 2x,
          url("../images/hero/avif/1200/hero-image-1200@3x.avif") 3x,
          url("../images/hero/webp/1200/hero-image-1200@1x.webp") 1x,
          url("../images/hero/webp/1200/hero-image-1200@2x.webp") 2x,
          url("../images/hero/webp/1200/hero-image-1200@3x.webp") 3x,
+         url("../images/hero/jpg/1200/hero-image-1200@1x.jpg") 1x,
+         url("../images/hero/jpg/1200/hero-image-1200@2x.jpg") 2x,
+         url("../images/hero/jpg/1200/hero-image-1200@3x.jpg") 3x,
       );
       background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       image-set(
@@ -85,7 +85,7 @@
 }
 
 .hero__title {
-   max-width: 696px;
+   max-width: 360px;
    width: 100%;
    font-weight: 900;
    font-size: 26px;
@@ -101,6 +101,7 @@
 
 @media screen and (min-width: 1200px) {
    .hero__title {
+      max-width: 696px;
       font-size: 44px;
       line-height: 1.36;
    }

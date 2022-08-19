@@ -5,12 +5,8 @@
 .team__list {
    display: flex;
    flex-wrap: wrap;
-   column-gap: var(--card-set-gap);
+   gap: var(--card-set-gap);
    flex-basis: calc((100% - 90px) / 4);
-}
-
-.team__list-item:not(:last-child) {
-   margin-bottom: 30px;
 }
 
 .team__member-image {
