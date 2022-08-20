@@ -103,6 +103,10 @@ footer {
    text-transform: uppercase;
    color: var(--basic-white-color);
    margin-bottom: 20px;
+
+   @media screen and (min-width: 1200px) {
+      text-align: start;
+   }
 }
 
 .page-footer__sotial-list {

@@ -582,6 +582,11 @@ footer {
   color: var(--basic-white-color);
   margin-bottom: 20px;
 }
+@media screen and (min-width: 1200px) {
+  .page-footer__sotial-title {
+    text-align: start;
+  }
+}
 
 .page-footer__sotial-list {
   margin-bottom: 60px;
